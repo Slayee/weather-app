@@ -1,0 +1,40 @@
+.container{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  border: black 1px solid;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  width: 500px;
+  text-align: center;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+}
+
+.weather-description{
+  display: flex;
+}
+
+.temperature{
+  font-size: 85px;
+  text-align: center;
+}
+
+.temperature-unit{
+  font-size: 30px;
+}
+
+.other-description{
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  font-size:small;
+}
+
